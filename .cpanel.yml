@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/myviewmy/repositories/myview
+    - /bin/cp -R * $DEPLOYPATH
